@@ -224,5 +224,24 @@ main {
     margin: 0 26px;
     
   }
+  .container-principal-marcas .btn-end{
+    margin-left: 33%;
+    border-radius: 20px;
+    padding: 10px;
+    border-width: 700;
+    
+    
+  }
+  .container-principal-marcas .btn-end a{
+    text-decoration: none;
+    color: black;
+    margin: 120px;
+    padding: 40px;
+    font-weight: 900;
+
+    
+
+    
+  }
   
 
