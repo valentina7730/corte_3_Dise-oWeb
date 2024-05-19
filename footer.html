@@ -3,121 +3,174 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Header Final</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Footer</title>
   </head>
   <body>
-    <header class="header">
-      <div class="contenedor_principal">
-        <div class="logo-cocacola">
-          <a class="logo-a" href="https://www.coca-cola.com/co/es"
-            ><img
-              class="img"
-              src="./img/Coke-company-logo-black.svg"
-              alt="Coca-Cola Logo"
-          /></a>
+    <footer class="footer">
+      <div class="contenedor_logo_ubicacion">
+        <div class="logo_cocacola">
+          <picture>
+            <img src="/img/logo-white-large.svg" alt="logo coca cola" />
+          </picture>
         </div>
-        <div class="menu-navegacion">
-          <nav class="nav">
-            <ul class="menu">
-              <li class="submenu">
-                <a class="a-1" href="https://www.coca-cola.com/co/es/brands"
-                  >Marcas</a
-                >
-              </li>
-              <li class="submenu">
-                <a class="a-1" href="#">Descubre</a>
-                <img class="flecha" src="/img/icono-flecha.svg" alt="" />
-                <div id="menu-desplegable">
-                  <ul class="submenu-submenu">
-                    <li class="submenu">
-                      <a
-                        class="a"
-                        href="https://www.coca-cola.com/co/es/offerings/coke-studio"
-                        >Coke Studio</a
-                      >
-                    </li>
-                    <li class="submenu">
-                      <a
-                        class="a"
-                        href="https://www.coca-cola.com/co/es/offerings/marvel"
-                        >Marvel</a
-                      >
-                    </li>
-                    <li class="submenu">
-                      <a
-                        class="a"
-                        href="https://www.coca-cola.com/co/es/offerings/creations"
-                        >Creations</a
-                      >
-                    </li>
-                    <li class="submenu">
-                      <a
-                        class="a"
-                        href="https://www.coca-cola.com/co/es/offerings/masterpiecegallery"
-                        >Galeria Coca-Cola</a
-                      >
-                    </li>
-                    <li class="submenu">
-                      <a
-                        class="a"
-                        href="https://www.coca-cola.com/co/es/offerings/pausa-es-power"
-                        >Pausa es Power</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="submenu">
-                <a class="a-1" href="#">Impacto</a>
-                <img class="flecha" src="/img/icono-flecha.svg" alt="" />
-                <div id="menu-desplegable">
-                  <ul class="submenu-submenu">
-                    <li class="submenu">
-                      <a
-                        class="a"
-                        href="https://www.coca-cola.com/co/es/sustainability"
-                        >Sustentabilidad</a
-                      >
-                    </li>
-                    <li class="submenu">
-                      <a class="a" href="https://www.coca-cola.com/co/es/social"
-                        >Social</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="submenu">
-                <a class="a-1" href="https://www.coca-colaentuhogar.com/"
-                  >Comprar</a
-                >
-                <img class="flecha" src="/img/icono-flecha.svg" alt="" />
-                <div id="menu-desplegable">
-                  <ul class="submenu-submenu">
-                    <li class="submenu">
-                      <a
-                        class="a"
-                        href="https://clientes.coca-cola.com/co/hogares"
-                        >Coca-Cola en tu hogar</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="user">
-          <button class="button-user">
-            <img
-              class="icon-user"
-              src="/img/iconoir--user (1).svg"
-              alt="iniciar sesion"
-            />
+        <div class="button_pais">
+          <button class="button_icono_pais">
+            <a href="https://www.coca-cola.com/country-selector">
+              <span class="icono_button">
+                <img src="/img/mi--location.svg" alt="logo ubicacion" />
+              </span>
+              <span class="texto_button">Colombia</span>
+            </a>
           </button>
         </div>
       </div>
-    </header>
+      <!-- contenedor principal (abarca todos los div, informacion interes, redes) -->
+      
+      <div class="contenedor_principal">
+
+        <div class="contenedor_informacion">
+
+          <div class="sobre_nosotros">
+            <h3 class="h3">SOBRE NOSOTROS</h3>
+            <ul class="lista_nosotros">
+              <li>
+                <a href="https://www.coca-colacompany.com/about-us"
+                  >Nuestra Compañia</a
+                >
+              </li>
+              <li>
+                <a href="https://www.coca-cola.com/co/es/media-center"
+                  >Sala de Prensa</a
+                >
+              </li>
+              <li>
+                <a href="https://www.coca-colacompany.com/about-us/history"
+                  >Nuestra Historia</a
+                >
+              </li>
+              <li>
+                <a href="https://www.coca-colacompany.com/careers"
+                  >Trabaja con nosotros</a
+                >
+              </li>
+            </ul>
+          </div>
+        
+          <div class="necesitas_ayuda">
+            <h3 class="h3">¿NECESITAS AYUDA?</h3>
+            <ul class="lista_necesitas_ayuda">
+              <li>
+                <a href="https://www.coca-cola.com/co/es/sitemap"
+                  >Mapa del sitio</a
+                >
+              </li>
+              <li>
+                <a href="https://www.coca-cola.com/co/es/about-us/contact-us"
+                  >Contactenos</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="terminos_de_uso">
+            <ul class="terminos_de_uso_ul">
+              <li>
+                <a href="https://www.coca-cola.com/co/es/legal/terms-of-service"
+                  >Terminos de uso</a
+                >
+              </li>
+              <li>
+                <a href="https://www.coca-cola.com/co/es/legal/privacy-policy"
+                  >Politica de Privacidad</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.coca-cola.com/co/es#js-open-onetrust-preference-center"
+                  >Configuracion de Cookies</a
+                >
+              </li>
+              <li>
+                <a href="https://www.coca-cola.com/co/es/legal/cookie-policy"
+                  >Informacion y uso de cookies</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.coca-cola.com/co/es/legal/terms-and-conditions"
+                  >Terminos y condiciones</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="contenedor_redes_sociales">
+            <div class="contenedor_secundarioredes">
+              <div class="button_twitter">
+                <button class="button">
+                  <a href="https://twitter.com/CocaColaLC">
+                    <span class="twitter">
+                      <img class="img" src="/img/logotwitter.svg" alt="twitter" />
+                    </span>
+                  </a>
+                </button>
+              </div>
+              <div class="button_instagram">
+                <button class="button">
+                  <a href="https://www.instagram.com/cocacolacol/">
+                    <span class="instagram">
+                      <img class="img" src="/img/instagramlogo.svg" alt="instagram" />
+                    </span>
+                  </a>
+                </button>
+              </div>
+              <div class="button_linkedin">
+                <button class="button">
+                  <a href="https://www.linkedin.com/company/the-coca-cola-company">
+                    <span class="linkedin">
+                      <img class="img" src="/img/linkedin.svg" alt="linkedin" />
+                    </span>
+                  </a>
+                </button>
+              </div>
+              <div class="button_youtube">
+                <button class="button">
+                  <a href="https://www.youtube.com/c/TheCoca-ColaCompany">
+                    <span class="youtube">
+                      <img class="img" src="/img/youtubelogo.svg" alt="youtube" />
+                    </span>
+                  </a>
+                </button>
+              </div>
+              <div class="button_facebook">
+                <button class="button">
+                  <a href="https://facebook.com/CocaColaJourney">
+                    <span class="facebook">
+                      <img class="img" src="/img/facebooklogo.svg" alt="facebook" />
+                    </span>
+                  </a>
+                </button>
+              </div>
+             </div>
+             <div class="button_accesibilidad">
+              <button class="button_acces">
+                <img class="img_acces"
+                  src="/img/pajamas--accessibility.svg"
+                  alt="button_accesibilidad"
+                />
+              </button>
+            </div>
+         </div>
+
+         </div>
+
+      </div>
+
+      <div class="derechos_reservados">
+        <p class="p">© 2024 The Coca-Cola Company. Todos los derechos reservados.</p>
+      </div>
+
+    </footer>
   </body>
 </html>
