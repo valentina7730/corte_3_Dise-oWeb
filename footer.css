@@ -7,17 +7,21 @@
   footer{
       width: 1152px;
       height: 616px;
+     
+      
   }
   
   body {
     background-color: #000;
     width: 1349px;
     height: 616px;
+    
   }
   
   .contenedor_principal {
     display: flex;
     flex-direction: column;
+    
   }
   .contenedor_informacion {
     display: flex;
